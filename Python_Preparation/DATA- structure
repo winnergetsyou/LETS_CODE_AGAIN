@@ -1,0 +1,27 @@
+IMPORTANT DATA Types:
+
+int 
+string
+
+
+Arrays: index + values
+List -- frequently used list.append(), list.remove()
+
+Tuple, Dictionary(Value and KeyPairs)
+
+Examples of Lists in Python :
+
+List data Types -- int, string 
+
+1. List = [1,2,3,4,5]
+2. List = ['a','b',c,d,e,]
+3. List = ["winner","gold"]
+4. List Manipluation
+
+Strings to List , gold to [g,o,l,d] and List to String 
+
+ Other possible cases: int in string -> r123r
+
+find the numbers based on types ..
+
+5. Manipulate and append
