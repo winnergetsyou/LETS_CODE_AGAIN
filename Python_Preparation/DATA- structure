@@ -25,3 +25,94 @@ Strings to List , gold to [g,o,l,d] and List to String
 find the numbers based on types ..
 
 5. Manipulate and append
+-----------------------------------------------------------------------------------------------
+
+data structure Recap:
+
+data Structure :
+
+Python :
+
+which data structure to use ?
+how to use it ?
+
+
+
+Indexing
+
+Starts with 0
+4th element is index [3]
+
+Slicing [start:end+1:step]
+
+x='computer'
+y=x[2:4] =>   prints [2] and [3]------------->3rd element and 4th element
+
+In Python Concatenate: strings
+1.'mox'+'mat'=moxmat
+2. ['one','two','three']+['five','four']=['one','two','three','five','four']
+3.(pot,water)+(go,)=(pot,water)+(go,)---->tuples will also add
+
+
+checking membership:
+y='string'
+y=['can','be','anything']
+
+print('one' in y)= Boolean
+print('two' not in y)
+
+print(y[-1])=> prints from the last element
+
+
+Iteration:
+
+for i in y:
+ print(i)
+
+for index, item in enumerate(y)
+ print(index,item)
+
+
+String: tuple=["abc"+"xyz"]
+len(y)
+len(list)
+len(tuple)-> number of iteams
+
+min(list)=> lexicographically minimum element
+max(list)
+min(string)
+max(string)
+
+ADDITION:
+Y=[1,2,3,4] Y =(1,2,3,4,)
+Z= print(sum(Y[2:4]))=> 7
+Z= print(sum(Y[-2:0]))=> 6
+if Y has string throws error
+
+
+SORTING
+Arranging = > Sorted will arrange all the elements in the ascending order
+b=sorted(Y)
+c=sorted(tuple)
+print(sorted(tuple))
+
+
+Sorting using 2nd element
+
+sorted(y, key=lamba k:k[1])
+
+count
+y.count(i)
+
+string.index(item)
+list.index(item)
+tuple.index(item)
+
+CREATING A NEW List:
+m = [2,3,3,4,5]
+1. List Comprehension: List=[x*4 for x in m if m<2]
+
+
+2. del(m[2])
+del(m)
+del(m(4))
