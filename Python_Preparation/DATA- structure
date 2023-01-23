@@ -1,7 +1,20 @@
 IMPORTANT DATA Types in PYTHON:
 
+Built in :
 int 
 string
+List []
+Tuple ()
+Dictionary {'key':'value'}
+Sets{no duplicates}
+
+User Defined :
+
+Stack: Last in First out
+Queue: First in First out
+BFS search Sort Algorithms 
+Tree Search (nodes)
+Hash map --> Dictionary 
 
 
 Arrays: index + values
