@@ -11,8 +11,7 @@
 })();
 </script>
 
-
-## FUNCTION EXPRESSION:
+    FUNCTION EXPRESSION:
 
 Expression = function()
 {document.getElementById("expression").innerHTML="printing expression"+" "+add(parseInt(y),parseInt(z));
@@ -20,7 +19,7 @@ Expression = function()
 
 Expression();
 
-# RESULT:
+> RESULT:
 printing expression 45
 
 
@@ -29,10 +28,10 @@ anonymous function without function Name:
 (function()
 {})()
 
-Constructor Function:
+    Constructor Function:
 var variable = new Function(argument1, function definition)
 
-ARROW FUNCTION
+    ARROW FUNCTION
 
-hoisting in function
+    hoisting in function
 
